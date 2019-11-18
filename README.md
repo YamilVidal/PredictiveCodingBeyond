@@ -1,7 +1,7 @@
-# PredictiveCodingBeyond
-EEG data preprocessing scripts from the paper "Predictive Coding beyond simple tone-based oddball designs"
+# Preprocessing pipeline
+EEG data preprocessing scripts from the paper "Neural Signal to Violations of Abstract Rules Using Speech-Like Stimuli"
 
-https://doi.org/10.1101/581355
+https://www.eneuro.org/content/6/5/ENEURO.0128-19.2019/
 
 As some steps need to be done manually, code is divided in blocks.
 Each block uses one folder as input and another as output.
