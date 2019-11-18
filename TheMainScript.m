@@ -5,7 +5,7 @@
 % IN  Path = '1 - Set'
 % OUT Path = '2 - Clean Channels'
 
-Step1
+Block1
 
 %% Visually inspect continuous data and spectra to reject channels that were not picked by the automatic methods
 % Note that some participants with small heads were using an infant size
@@ -35,7 +35,7 @@ figure; SPEC = pop_spectopo(EEG, 1, [], 'EEG' , 'percent', 50, 'freqrange',[1 70
 % IN  Path = '2 - Clean Channels'
 % OUT Path = '3 - Done ICA'
 
-Step2
+Block2
 
 %% Remove ICA components manually
 % Save in a different directory (4 - Clean ICA) to keep a copy of the datasets with all the
@@ -52,10 +52,10 @@ pop_selectcomps(EEG, 1:24);
 % IN  Path = '4 - Clean ICA'
 % OUT Path = '5 - Clean Conditions'
 
-Step3
+Block3
 
 %% Create Grand Average datasets
 % IN  Path = '5 - Clean Conditions'
 % OUT Path = '6 - Grand Average'
 
-Step4
+Block4
